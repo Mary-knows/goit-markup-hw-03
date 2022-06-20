@@ -53,11 +53,12 @@ img {
 }
 
 .section {
-    padding: 94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section.advantage {
-    padding: 94px 215px 0 215px;
+    padding-bottom: 0;
 }
 
 
@@ -164,12 +165,13 @@ img {
 .hero {
     background-color: var(--background-darkgray-color);
     text-align: center;
-    padding: 200px 452px;
+    padding-top: 200px;
+    padding-bottom: 200px; 
 }
 
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0 auto;
+    width: 696px;
 
     color: var(--white-color);
     font-weight: 900;
@@ -181,6 +183,7 @@ img {
 
 .hero-button {
     padding: 10px 32px;
+    margin-top: 30px;
 
     background-color: var(--primery-button-color);
     color: var(--white-color);
@@ -272,9 +275,6 @@ img {
     margin-right: 30px;
 }
 
-.foto-team {
-    margin-bottom: 30px;
-}
 
 .team-name {
     margin-top: 0;
@@ -289,12 +289,16 @@ img {
 
 .job-title {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+}
+
+.team-name-job {
+    padding: 30px 0;
 }
 
 
@@ -347,7 +351,7 @@ img {
 
 .filter-nav {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
